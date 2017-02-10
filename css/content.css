@@ -1,3 +1,24 @@
-
+@keyframes move-bear {
+  from, to {
+    right: -500px; }
+  30%, 50% {
+    right: 0; } }
+#joke-block {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+  transition: all 1s;
+  top: 0;
+  right: 0; }
+  #joke-block img {
+    position: absolute;
+    top: 0;
+    right: -500px; }
+    #joke-block img.animate {
+      animation: move-bear 2s; }
+    #joke-block img.animated {
+      right: 0; }
 
 /*# sourceMappingURL=content.css.map */

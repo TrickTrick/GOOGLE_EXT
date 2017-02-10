@@ -1,2 +1,2 @@
-# GOOGLE_EXT
-https://developer.chrome.com/extensions/overview#pages
+# FUNNY BEAR
+joke extension for google
